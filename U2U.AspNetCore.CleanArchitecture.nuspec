@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>U2U.AspNetCore.CleanArchitecture</id>
+    <version>2.1.0</version>
+    <title>U2U.AspNetCore.CleanArchitecture</title>
+    <authors>Peter Himschoot</authors>
+    <owners>Peter Himschoot</owners>
+    <licenseUrl>https://choosealicense.com/licenses/mit/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Facilitate building web sites with Clean Architecture.</description>
+    <releaseNotes>Internal use only -- preview</releaseNotes>
+    <tags>Clean Architecture</tags>
+  </metadata>
+  <files>
+    <file src="bin/Release/netcoreapp2.1/U2U.AspNetCore.CleanArchitecture.dll" target="lib/netcoreapp2.1/U2U.AspNetCore.CleanArchitecture.dll" />
+    <file src="readme.md" target="" />
+  </files>
+</package>
