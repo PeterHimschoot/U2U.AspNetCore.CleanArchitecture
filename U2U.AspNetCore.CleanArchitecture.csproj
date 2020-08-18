@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <NullableContextOptions>enable</NullableContextOptions>
     <LangVersion>8.0</LangVersion>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -10,13 +10,16 @@
 
   <PropertyGroup>
     <PackageId>U2U.AspNetCore.CleanArchitecture</PackageId>
-    <PackageVersion>3.1.0</PackageVersion>
+    <PackageVersion>3.2.0</PackageVersion>
     <Title>U2U.AspNetCore.CleanArchitecture</Title>
     <Authors>Peter Himschoot</Authors>
     <PackageDescription>Use Clean Architecture without direct dependencies in code to Infra and Code.</PackageDescription>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags>"Clean Architecture"</PackageTags>
+    <Version>3.2.0</Version>
+    <PackageIcon>U2U.png</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   
   <ItemGroup>
@@ -28,5 +31,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
 
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\..\..\Users\PeterHimschoot\OneDrive - U2U\Training\U2U\U2U.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
